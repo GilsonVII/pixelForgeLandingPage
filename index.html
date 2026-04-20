@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelForge Studios - AR Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="nav-arrow left-arrow" id="btn-prev" title="Página Anterior">&#10094;</div>
+  <div class="nav-arrow right-arrow" id="btn-next" title="Próxima Página">&#10095;</div>
+
+  <header>
+    <a href="#home" class="logo-link" id="logo-branding">
+      <div class="logo-container">
+        <img src="./assets/logo.png" alt="Bigorna PixelForge" class="logo-img">
+        <span class="logo-text">PixelForge Studios</span>
+      </div>
+    </a>
+    
+    <nav>
+      <a href="#home" class="nav-icon active" title="Home" data-target="home">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      </a>
+      <a href="#sobre" class="nav-icon" title="Sobre Nós" data-target="sobre">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+      </a>
+      <a href="#produtos" class="nav-icon" title="Produtos" data-target="produtos">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+      </a>
+      <a href="#contato" class="nav-icon" title="Contato" data-target="contato">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+      </a>
+    </nav>
+  </header>
+
+  <main class="scroll-horizontal">
+    
+    <section id="home" class="tela">
+      <h1>Bem Vindo a <span class="destaque-pixel">PixelForge Studios</span> uma nova realidade</h1>
+      <p class="subtitulo-home">Transformando o mundo real em uma interface digital cheia de camadas.</p>
+    </section>
+
+    <section id="sobre" class="tela">
+      <h2>Sobre a PixelForge</h2>
+      <p class="texto-sobre">
+        Nascemos da faísca entre o mundo que tocamos e o universo que imaginamos. A PixelForge Studios é muito mais que uma produtora de Realidade Aumentada; somos arquitetos de um amanhã onde a tecnologia abraça a humanidade. Acreditamos no poder transformador das experiências imersivas para inspirar, conectar e derrubar de vez as fronteiras entre o físico e o digital. Aqui, forjamos não apenas interfaces, mas um futuro vibrante e cheio de esperança, onde a sua imaginação se torna a nova realidade.
+      </p>
+      <img src="./assets/holograma.png" alt="Holograma Globo" class="img-destaque">
+    </section>
+
+    <section id="produtos" class="tela">
+      <h2>Nossas Experiências</h2>
+      <div class="produtos-container">
+        <div class="produto-card">
+          <img src="./assets/restaurant.png" alt="Cardápio AR" class="produto-img">
+          <div class="produto-info">
+            <h3>Cardápio Interativo</h3>
+            <p>Visualize pratos em 3D antes de pedir no restaurante.</p>
+            <p>Aumente o engajamento e a satisfação do seu cliente.</p>
+            <p>Tecnologia imersiva para a gastronomia do futuro.</p>
+          </div>
+        </div>
+
+        <div class="produto-card reverso">
+          <div class="produto-info">
+            <h3>Treinamento Gamificado</h3>
+            <p>Capacite sua equipe com simulações de alto realismo.</p>
+            <p>Reduza custos de treinamento e erros operacionais.</p>
+            <p>Gamificação aplicada ao aprendizado corporativo sério.</p>
+          </div>
+          <img src="./assets/wir.png" alt="Treinamento AR" class="produto-img">
+        </div>
+
+        <div class="produto-card">
+          <img src="./assets/convite.png" alt="Convite AR" class="produto-img">
+          <div class="produto-info">
+            <h3>Convites AR</h3>
+            <p>Dê vida aos seus eventos com convites holográficos.</p>
+            <p>Uma experiência única que começa no primeiro contato.</p>
+            <p>Surpreenda seus convidados com interações digitais.</p>
+          </div>
+        </div>
+
+        <h3 class="titulo-tabela">Tabela de Serviços</h3>
+        <table class="tabela-neon">
+          <thead>
+            <tr>
+              <th>Serviço</th>
+              <th>Descrição</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="destaque-td">Cardápio Interativo</td>
+              <td>Modelos 3D realistas para menus.</td>
+              <td class="preco-td">Sob consulta</td>
+            </tr>
+            <tr>
+              <td class="destaque-td">Treinamento Gamificado</td>
+              <td>Simulações imersivas corporativas.</td>
+              <td class="preco-td">A partir de R$ 5.000</td>
+            </tr>
+            <tr>
+              <td class="destaque-td">Convites AR</td>
+              <td>Animações AR para eventos.</td>
+              <td class="preco-td">R$ 1.500</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contato" class="tela">
+      <h2>Inicie seu Projeto</h2>
+      <form action="#" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Forjar Ideia</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>PixelForge Studios - 2026</p>
+    <div class="redes-sociais">
+      <a href="https://twitter.com" target="_blank" class="icon-x" title="X">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16m0-16L4 20"></path></svg>
+      </a>
+      <a href="https://facebook.com" target="_blank" class="icon-fb" title="Facebook">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+      </a>
+      <a href="https://instagram.com" target="_blank" class="icon-ig" title="Instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    const sections = Array.from(document.querySelectorAll('.tela'));
+    const scrollContainer = document.querySelector('.scroll-horizontal');
+    const navIcons = document.querySelectorAll('.nav-icon');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const logoBranding = document.getElementById('logo-branding');
+
+    let currentIndex = 0;
+
+    scrollContainer.addEventListener('scroll', () => {
+      sections.forEach((section, index) => {
+        const sectionLeft = section.offsetLeft;
+        if (scrollContainer.scrollLeft >= sectionLeft - (window.innerWidth / 2)) {
+          currentIndex = index;
+        }
+      });
+
+      const currentId = sections[currentIndex].getAttribute('id');
+      navIcons.forEach(icon => {
+        icon.classList.remove('active');
+        if (icon.getAttribute('data-target') === currentId) {
+          icon.classList.add('active');
+        }
+      });
+    });
+
+    function scrollToSection(index) {
+      sections[index].scrollIntoView({ behavior: 'smooth', inline: 'start' });
+    }
+
+    btnPrev.addEventListener('click', () => {
+      let newIndex = currentIndex - 1;
+      if (newIndex < 0) newIndex = sections.length - 1; 
+      scrollToSection(newIndex);
+    });
+
+    btnNext.addEventListener('click', () => {
+      let newIndex = currentIndex + 1;
+      if (newIndex >= sections.length) newIndex = 0; 
+      scrollToSection(newIndex);
+    });
+
+    logoBranding.addEventListener('click', (e) => {
+      e.preventDefault();
+      scrollToSection(0);
+    });
+  </script>
+</body>
+</html>
