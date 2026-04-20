@@ -17,7 +17,7 @@
 A **PixelForge Studios** é uma landing page de alto impacto desenvolvida para apresentar soluções em Realidade Aumentada (AR). O projeto foca em uma experiência de usuário (UX) imersiva, utilizando navegação horizontal e efeitos visuais inspirados na estética futurista.
 
 > [!IMPORTANT]
-> **AVISO DE EMPRESA FICTÍCIA:** A PixelForge Studios é uma empresa puramente fictícia criada para fins acadêmicos. Este projeto faz parte do desenvolvimento do curso de Sistemas de Análise e Robótica Aplicada.
+> **AVISO DE EMPRESA FICTÍCIA:** A PixelForge Studios é uma empresa puramente fictícia criada para fins acadêmicos. Este projeto faz parte do desenvolvimento do curso de Análise e Desenvolvimento de Sistemas.
 
 ---
 
